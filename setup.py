@@ -28,7 +28,8 @@ setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'python-robotframework-tidy = pre_commit_hook.rf_tify:main',
+            ('python-robotframework-tidy = '
+             'pre_commit_robotframework_tidy.rf_tify:main'),
         ],
     },
 )
