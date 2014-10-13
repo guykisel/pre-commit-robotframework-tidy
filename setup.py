@@ -29,7 +29,7 @@ setup(
     entry_points={
         'console_scripts': [
             ('python-robotframework-tidy = '
-             'pre_commit_robotframework_tidy.rf_tify:main'),
+             'pre_commit_robotframework_tidy.rf_tidy:main'),
         ],
     },
 )
