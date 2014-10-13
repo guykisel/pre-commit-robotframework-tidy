@@ -1,0 +1,21 @@
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: f99d70ef0fed82851e32a8a8b34ab9e6e3eb2af5
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: autopep8-wrapper
+        args:
+        - -i
+        - --ignore=E265,E309,E501
+        - -v
+    -   id: check-json
+    -   id: check-yaml
+    -   id: debug-statements
+    -   id: name-tests-test
+    -   id: flake8
+-   repo: git://github.com/FalconSocial/pre-commit-python-sorter
+    sha: 31865d04ebd9961fb5fd4fb57ec4016c1db0bbe4
+    hooks:
+    -   id: python-import-sorter
+        args:
+        - --silent-overwrite

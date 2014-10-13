@@ -1,0 +1,6 @@
+- id: robotframework-tidy-wrapper
+  name: robotframework tidy wrapper
+  description: Runs Robot Framework's tidy tool.
+  entry: python-robotframework-tidy
+  language: python
+  files: \.robot$
