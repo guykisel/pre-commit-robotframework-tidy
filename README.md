@@ -1,6 +1,5 @@
 pre-commit Robot Framework Tidy wrapper
 ==============================
-===============================
 
 This is a [pre-commit](https://github.com/pre-commit) hook that will run
 Robot Framework's Tidy tool on all of your robot files.
