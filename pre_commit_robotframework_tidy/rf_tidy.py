@@ -21,7 +21,7 @@ def main(argv=None):
     for filename in args.filenames:
         try:
             tidier.inplace(filename)
-        except DataError:
+        except (DataError, OSError):
             pass
 
     return 0
