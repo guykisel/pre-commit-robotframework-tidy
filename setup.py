@@ -22,6 +22,7 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6',
         'Operating System :: OS Independent',
     ],
     packages=find_packages('.', exclude=('tests*', 'testing*')),

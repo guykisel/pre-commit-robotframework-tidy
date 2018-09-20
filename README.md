@@ -11,7 +11,7 @@ Robot Framework's Tidy tool on all of your robot files.
 Add this to your ``.pre-commit-config.yaml`` file
 
     -   repo: git://github.com/guykisel/pre-commit-robotframework-tidy
-        sha: 2ca903f005db8f8d87abe42864070f5b95e0837a
+        rev: ''  # use the sha / tag you want to point at
         hooks:
         -   id: robotframework-tidy-wrapper
 
