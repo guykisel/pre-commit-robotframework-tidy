@@ -16,8 +16,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     tidier = Tidy(use_pipes=args.use_pipes,
-                  space_count=args.space_count,
-                  format='robot')
+                  space_count=args.space_count)
     for filename in args.filenames:
         try:
             tidier.inplace(filename)
