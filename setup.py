@@ -4,7 +4,7 @@ import sys
 
 from setuptools import find_packages, setup
 
-install_requires = ['robotframework']
+install_requires = ['robotframework<5']
 if sys.version_info < (2, 7):
     install_requires.append('argparse')
 
